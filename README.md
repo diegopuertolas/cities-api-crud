@@ -1,12 +1,12 @@
-# **cities** 🏙️
+# **cities-api-crud 🏙️** 
 
-## Proyecto de Entornos de Desarrollo, trabajar con Nodejs.
+## Proyecto de Entornos de Desarrollo. ##
 
-### Diego Puértolas Ruiz, 1SW
+### Trabajar con Node.js ###
 
 ---
 
-## Iniciación
+## Iniciación ##
 
 1. Instalamos **[Node.js](https://nodejs.org/en)**
 2. Comprobamos que se ha instalado correctamente ejecutando `node` en la terminal de VSCode o del sistema.
@@ -16,3 +16,12 @@
    - Es el lugar en el que vamos a guardar el código.
 5. Dentro de `src` creamos el archivo `app.js`.
    - Archivo en el que vamos a empezar a escribir código.
+
+## API de ciudades con las siguientes funcionalidades: ##
+
+- **CRUD COMPLETO**
+   - GET `/cities`
+   - GET `/cities/:city`
+   - POST `/cities`
+   - PUT `/cities/:city`
+   - DEL `/cities/:city`
